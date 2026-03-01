@@ -1,6 +1,10 @@
 # 数据工程方面情绪对话数据集获取
 #### 本来是想做两种风格对话微调模型的，但后续有些麻烦，用xtuner，简要过程放pdf里，自己有兴趣复现好了
-### 需要在智普ai开放平台注册并实名认证，创建apikey：
+
+###需要安装库如下（如果有其它缺少，自行安装）：
+#### pip install zhipuai sentence_transformers numpy
+### 需要在智普ai开放平台注册并实名认证，创建apikey：在这里进行替换
+> client = ZhipuAI(api_key="238333f13fdb4efdf39d7.GwngHUrulaFNjfgw")  # 替换为你的API Key
 ### 网址：https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys
 ### test01.py 是测试获取100条温柔和毒舌风格的对话数据数据集，存放在style_chat_data.json中
 ### get_data.py 是获取一万条温柔和毒舌风格的对话数据集，存放在style_chat_data1.json中
