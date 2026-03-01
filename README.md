@@ -12,3 +12,5 @@
 ### get_data.py 是获取一万条温柔和毒舌风格的对话数据集，存放在style_chat_data1.json中
 ### model_convert 是对数据进行归一化处理，因为原始 text2vec-base-chinese-sentence 模型缺少归一化层，导致输出的句子向量模长不等于1，计算余弦相似度时结果不准确，这个脚本是做修补作用
 ### cleaned_output.txt 是1000条人工筛选后的数据集
+
+### 后续可以对数据集预处理，选择合适的模型去训练，xtuner微调，lmdeploy部署等
