@@ -14,7 +14,7 @@ import numpy as np
     ]
 """
 # 初始化模型
-client = ZhipuAI(api_key="238333f13fdb4e5fa2634b9c2fdf39d7.GwngHUrulaFNjfgw")  # 替换为你的API Key
+client = ZhipuAI(api_key="238333f13fdbc2fdf39d7.GwngHUrulaFNjfgw")  # 替换为你的API Key
 #加载Embeddingmodel
 style_model = SentenceTransformer(r"F:\A\Emotional-Dialogue-Model-Training-and-Deployment\embedding_model\sungw111\text2vec-base-chinese-sentence")
 
